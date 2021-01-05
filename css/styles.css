@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: "Advent Pro", sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	list-style-type: none;
+}
+
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*.................NAVBAR.......................*/
+
+nav{
+	overflow: hidden;
+	background: #FFFAE1;
+	position: fixed;
+	width: 100%;
+	opacity: 0.9;
+}
+
+header li{
+	float: right;
+	font: 1.2em;
+}
+
+header li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px; 
+}
+#logo{
+	font-family: 'Dancing Script';
+	font-weight: bold;
+	float: left;
+}
+
+/*..........IMAGE PRINCIPALE..........*/
+
+#imagesPrincipale{
+	padding: 60px;
+	background: url("../img/image-principale.jpg") no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 799px;
+}
+
+h1{
+	font-family: "Dancing Script", Cursive;
+	text-align: center;
+	color: antiquewhite;
+	font-size: 6em;
+	margin-top: 110px;
+	text-shadow: 1px 3px 2px black;
+}
+
+#premier-trait{
+	height: 1px;
+	width: 20%;
+	margin: -3px auto;
+	background-color: #FFFAE1;
+	box-shadow: 1px 3px 2px black;
+
+}
+
+h3{
+	text-align: center;
+	color: antiquewhite;
+	font-size: 3em;
+	text-shadow: 1px 3px 2px black;
+
+}
+
+/*..........PRESENTATION..........*/
+
+#presentation{
+	background-color: #FFFAE1;
+	padding: 10px 0px 100px 0px;
+}
+#text-introduction{
+	padding: 0px 20%;
+}
+
+#prestation{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%
+}
+
+.image-prestation h4{
+	font-family: "Dancing Script", Cursive;
+	text-align: center;
+	font-size: 1.8em;
+	margin: 15px;
+	font-weight: 300;
+
+}
+
+.image-prestation img{
+	border-radius: 10px; 
+	box-shadow: 5px 5px 3px 1px #000000;
+}
+
+.image-prestation img:hover{
+	opacity: 0.5;
+	transform: scale(1.05);
+	transition: 0.8s ease-in-out;
+}
+
+/*.........TOURISME...........*/
+
+#tourisme{
+	height: 1400px;
+	background-color: #F1F2F6;
+	padding: 1px 2%;
+}
+
+#tourisme h2{
+	padding-top: 60px;
+}
+
+#ocean{
+	background: url(../img/ocean.jpg);
+}
+
+#chateau{
+	background: url(../img/chateau.jpg);
+}
+
+#vignoble{
+	background: url(../img/vignoble.jpg);
+}
+
+#phare{
+	background: url(../img/phare.jpg);
+}
+
+#tourisme li{
+	margin: 65px 100px 0px 100px;
+	height: 226px;
+	width: 55%;
+	max-width: 550px;
+	float: left;
+	box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+
+#tourisme p{
+	height: 45px;
+	width: 235px;
+	background-color: #01DF74; 
+	float: right;
+	margin: 50px -180px 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 15px;
+	box-shadow: 4px 4px 0px 1px rgba(90, 161, 43, 1 );
+}
+
+#tourisme #phare,#tourisme #vignoble{
+
+	float: right;
+
+}
+
+#phare p, #vignoble p{
+	float: left;
+	background-color: cyan;
+	margin-left: -180px,
+	box-shadow: -4 4 0 1px rgb(15, 154, 156, 1);
+}
+
+/*.........FOOTER..........*/
+
+footer{
+	background-color: #524A3A;
+	color: #FFFAE1;
+	padding: 20px 0 10px 0; 
+	text-align: center;
+}
+
+form{
+	margin: auto;
+	max-width: 900px;
+}
+
+input, textarea, button{
+	border: none;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 1px 0px;
+	font-size: 1.2em;
+	font-family: "Advent Pro", sans-serif; 
+	border-radius: 8px;
+}
+
+textarea{
+	height: 120px;
+}
+
+button{
+	font-size: : 1.5em;
+	background-color: #FFFAE1;
+}
+
+button:hover{
+	background-color: #e55039;
+	color: #FFFAE1;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+#deuxieme-trait{
+	height: 1px;
+	width: 75%;
+	background-color: #FFFAE1;
+	margin: 60px auto;
+}
+
+#copyrightEtIcons{
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0px 10%;
+}
+
+#copyright{
+	width: 50%;
+	text-align: left;
+	color: #FFFAE1;
+}
+
+#icons{
+	width: 50%;
+	text-align-last: right;
+}
+
+#icons a{
+	display: inline-block;
+	padding: 0px 15px;
+	color: #FFFAE1;
+	font-size: 1.3em;
+}
+
+#icons a:hover{
+	transform: scale(1.5);
+	transition: 0.1s;
+}
